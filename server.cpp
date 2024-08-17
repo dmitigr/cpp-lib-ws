@@ -93,7 +93,7 @@ public:
     if (is_started())
       return;
 
-    using App = uWS::TemplatedApp<IsSsl>;
+    using App = uWS::CachingApp<IsSsl>;
 
     const auto ws_behavior = [this]
     {
