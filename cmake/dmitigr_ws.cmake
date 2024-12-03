@@ -49,7 +49,7 @@ set(dmitigr_ws_implementations
 # Dependencies
 # ------------------------------------------------------------------------------
 
-set(dmitigr_libs_ws_deps base fsx http net 3rdparty_uwebsockets)
+set(dmitigr_libs_ws_deps base http net 3rdparty_uwebsockets)
 
 if (NOT DMITIGR_LIBS_HEADER_ONLY)
   set(suffix "public")

@@ -17,7 +17,7 @@
 #ifndef DMITIGR_WS_SERVER_OPTIONS_HPP
 #define DMITIGR_WS_SERVER_OPTIONS_HPP
 
-#include "../fsx/filesystem.hpp"
+#include "../base/fsx.hpp"
 #include "dll.hpp"
 #include "types_fwd.hpp"
 
