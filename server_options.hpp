@@ -17,11 +17,11 @@
 #ifndef DMITIGR_WS_SERVER_OPTIONS_HPP
 #define DMITIGR_WS_SERVER_OPTIONS_HPP
 
-#include "../base/fsx.hpp"
 #include "dll.hpp"
 #include "types_fwd.hpp"
 
 #include <chrono>
+#include <filesystem>
 #include <memory>
 #include <optional>
 #include <string>
